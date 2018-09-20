@@ -2,6 +2,15 @@
 
 #Open `lib/person.rb` and add a class definition for a `Person` class.
 
+class Person
+    def talk
+    puts "Hello World!"
+    end
+    def walk
+    puts "The Person is walking"
+    end
+end
+
 #### 5. Define `#talk` in `Person`
 
 #Add an instance method `#talk` to your `Person` class in `lib/person.rb` that will puts `"Hello World!"`
